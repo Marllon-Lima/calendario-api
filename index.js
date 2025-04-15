@@ -5,8 +5,20 @@ app.use(express.json());
 // Array em memória com alguns dias cadastrados
 let calendar = [
     {
-      id: '1',
-      date: '2025-04-15',
+        "dateId": "dataeventopositivo",
+        date: '2025-04-15',
+    },
+    {
+        "dateId": "dataeventonegativo",
+        date: '2025-04-15',
+    },
+    {
+        "dateId": "dataeventoneutro",
+        date: '2025-04-15',
+    },
+    {
+        "dateId": "dataeventofestival",
+        date: '2025-04-15',
     }
 ];
 
